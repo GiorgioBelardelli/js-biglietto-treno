@@ -8,11 +8,13 @@ L’output del prezzo finale va messo fuori in forma umana (con massimo due deci
 Questo richiederà un minimo di ricerca.
 */
 
-let ticketPrice = parseFloat(distance * 0.21);
+
 
 const distance = parseInt(prompt("Inserisci il la distanza (in KM) che devi percorrere"));
+
 const passengerAge = parseInt(prompt("Inserisci la tua eta'"));
 
+let ticketPrice = parseFloat(distance * 0.21);
 
 
 if ( passengerAge < 18 ){
